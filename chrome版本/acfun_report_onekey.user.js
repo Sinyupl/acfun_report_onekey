@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  try to take over the world!
-// @author       You
+// @author       Sinyupl
 // @match        http://www.acfun.tv/*
 // @match        http://acfun.tudou.com/v/*
 // @grant        none
