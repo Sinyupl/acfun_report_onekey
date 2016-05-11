@@ -100,15 +100,13 @@ return value;
 $("html body").animate({
 	scrollTop:0
 })
+
 $(window).scroll(function(){
 	if($(document).scrollTop()>200){
-		run();
-		var obj = $(".jubk");
-		if(obj){
-		   $(window).unbind("scroll");
-		}
-		else{
-			run();
+		
+		var obj = $(".jubk").html();
+		if(!obj){
+		   run();
 		}
 	}
 })

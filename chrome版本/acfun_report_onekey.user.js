@@ -106,8 +106,6 @@ $(window).scroll(function(){
 	if(!obj){
 		run();
 	}
-	else{
-		window.unbind("scroll");
-	}
+	
 })
 })();
